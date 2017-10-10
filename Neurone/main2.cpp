@@ -17,7 +17,7 @@ int main() {
 	}*/
 	
 	n.update();
-	//n.affich_sp();
+	n.affich_sp();
 	
 	return 0;
 }

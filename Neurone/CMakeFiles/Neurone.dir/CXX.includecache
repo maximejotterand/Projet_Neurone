@@ -1,0 +1,42 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/maxime/Bureau/Neurone/main2.cpp
+iostream
+-
+neurone.hpp
+/home/maxime/Bureau/Neurone/neurone.hpp
+network.hpp
+/home/maxime/Bureau/Neurone/network.hpp
+
+/home/maxime/Bureau/Neurone/network.cpp
+network.hpp
+/home/maxime/Bureau/Neurone/network.hpp
+
+/home/maxime/Bureau/Neurone/network.hpp
+iostream
+-
+vector
+-
+neurone.hpp
+/home/maxime/Bureau/Neurone/neurone.hpp
+
+/home/maxime/Bureau/Neurone/neurone.cpp
+neurone.hpp
+/home/maxime/Bureau/Neurone/neurone.hpp
+
+/home/maxime/Bureau/Neurone/neurone.hpp
+iostream
+-
+vector
+-
+chrono
+-
+cmath
+-
+
